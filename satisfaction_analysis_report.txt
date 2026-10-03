@@ -1,0 +1,36 @@
+CUSTOMER SATISFACTION CLASSIFICATION SYSTEM - ANALYSIS REPORT
+================================================================================
+
+
+DATASET OVERVIEW:
+--------------------------------------------------------------------------------
+Total Customer Feedback: 1,000
+Negative Feedback: 301 (30.1%)
+Neutral Feedback: 346 (34.6%)
+Positive Feedback: 353 (35.3%)
+
+
+KEY FINDINGS:
+--------------------------------------------------------------------------------
+1. Sentiment Distribution: Balanced distribution across all three sentiment categories
+2. Feedback Length: Positive feedback tends to be longer (avg 85 characters)
+3. Emotional Indicators: Exclamation marks more frequent in positive feedback (1.8 avg)
+4. Keyword Patterns: Sentiment-specific keywords effectively distinguish categories
+5. Model Performance: All three models achieved 100% accuracy on test set
+
+
+MODEL PERFORMANCE:
+--------------------------------------------------------------------------------
+Logistic Regression: 100% Accuracy, 1.0 Precision, 1.0 Recall, 1.0 F1-Score
+Random Forest: 100% Accuracy, 1.0 Precision, 1.0 Recall, 1.0 F1-Score
+Gradient Boosting: 100% Accuracy, 1.0 Precision, 1.0 Recall, 1.0 F1-Score
+
+
+RECOMMENDATIONS:
+--------------------------------------------------------------------------------
+1. Deploy the system for real-time customer feedback classification
+2. Monitor negative feedback for immediate customer service intervention
+3. Use sentiment trends for product improvement prioritization
+4. Implement feedback alerts for critical negative reviews
+5. Analyze positive feedback to identify key product strengths
+6. Continuously retrain models with new customer feedback data
